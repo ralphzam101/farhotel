@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body {
+    background-image: url('/assets/images/success.bg.jpg');
+    font-family: 'Poppins', sans-serif;
+}
+.bgimg {
+    height: 100%;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    margin: 100px auto;
+    width: 50%;
+}
+.middle {
+    text-align: center;
+    color: gold;
+    padding: 25px;
+    background-color: #161E31;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.middle img {
+    height: 200px;
+}
+
+.middle p {
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+.middle a {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    background-color: #ddb206;
+    border-radius: 10px;
+}
+
+.middle a:hover {
+    background-color: white;
+    color: #ddb206;
+}
+
+
+
