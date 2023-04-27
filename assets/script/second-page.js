@@ -465,3 +465,12 @@ function calculateTotal() {
     }
     document.getElementById("total").innerHTML = total.toFixed(2);
 }
+
+  let proceedBtn = document.querySelector("#bookNow")
+  proceedBtn.addEventListener("click", proceedFnc);
+  function proceedFnc() {
+  if (total == 0) {
+    alert("please Select a room");
+  } 
+  window.location.href="check-out-form.html"
+  }

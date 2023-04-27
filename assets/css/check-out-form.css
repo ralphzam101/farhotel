@@ -10,7 +10,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  
 }
 
 :root {
@@ -83,6 +82,7 @@ button i {
 }
 
 .landing-div {
+ 
   height: 90vh;
 }
 
@@ -118,71 +118,19 @@ button i {
 
 
 /* Selection Summary */
-/* .cart-row {
+.cart-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     margin: 30px auto;
     width: 80%;
     font-family: 'Poppins', sans-serif;
 }
 
-.cart-summary {
-    order: 2;
-    width: 50%;
-    padding: 20px 10px 10px 10px;
-    height: auto;
-}
-.div-summary {
-    position: sticky;
-    top: 100px;
-    padding: 10px;
-}
-.cart-summary span {
-    font-family: 'Poppins', sans-serif;
-    font-size: 25px;
-    font-weight: 800;
-}
-.cart-list {
-    padding: 0px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 10px;
-}
-.cart-list li {
-    display: flex;
-    justify-content: space-between;
-    padding: 2px 15px;
-    list-style-type: none;
-    color: black;
-    align-items: center;
-}
-
-.li-last h5 {
-    padding: 0px;
-    margin: 5px 0px 0px;
-}
-.li-last p {
-    font-size: 12px;
-}
-.li-last span {
-    font-size: 20px;
-    align-self: first baseline;
-    margin: 5px 0px 0px;
-    padding: 0px;
-}
-
-.check-out {
-    text-align: center;
-} */
-
 .user-info {
-    justify-content: center;
-    width: 60%;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 50px 25px;
+    margin: auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding:15px;
 }
@@ -193,7 +141,7 @@ button i {
 .container form .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap:15px;
 }
 
 .full-name {
@@ -284,17 +232,11 @@ span {
     transform: scale(1.05);
 }
 
-.booking-button a {
-    text-decoration: none;
-    color: var(--white);
-    width: 100%;
-}
-
 
 
 /* FOOTER */
 .footer-container {
-    background-color: var(--darkblue);
+    background-color: var(--blueNavbar);
     color: var(--gold);
 }
 
