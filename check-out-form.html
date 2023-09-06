@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Check Out Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/check-out-form.css">
+    <script src="https://kit.fontawesome.com/d52215e960.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <script src="assets/script/checkOut.js" defer></script>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-navbar">
+        <div class="container div-navbar">
+            <a class="navbar-brand" href="index.html"><img src="assets/css/images/logos/Logo-2.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#promoLink">Promos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#policies">Policy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#termsAndConditions">Terms & Conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Policies MOdal -->
+    <div class="d-flex ">
+        <!-- Modal -->
+        <div class="modal fade" id="policies" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="policiesLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl modal-fullscreen-xl-down modal-fullscreen-lg-down modal-fullscreen-md-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="policiesLabel">
+                            HOTEL RESERVATION POLICIES
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4>CANCELLATION POLICIES</h4>
+                        <p>If you must cancel your reservation, please notify us 24 hours prior to arrival to avoid a charge of one night's stay plus tax, unless otherwise noted in the terms & conditions of your booking. If you simply do not check-in, you will be charged one night's stay plus tax. For all Classic Suite, Prestige Suite and Harcourt Suite reservations, a deposit equivalent to one night's stay plus tax is due at the time of booking and a 3 day cancellation policy is required. For Baccarat Suite bookings, a deposit equivalent to one night's stay plus tax is due at the time of booking and a 7 day cancellation notice is required. Failure to cancel reservations 24 hours, 3 days or 7 days prior to arrival, depending on the reserved room category, will result in a full reservation charge.</p>
+                        <h4>PET POLICIES</h4>
+                        <p>Dogs 20 lbs. or less are welcome at a one-time charge of $250. For any room damages, additional fees may be charged at the conclusion of your stay. Unfortunately, we do not allow cats.</p>
+                        <h4>EARLY ARRIVALS AND LATE DEPARTURES</h4>
+                        <p>We ask that guests contact the hotel as far in advance as possible regarding early arrivals and late departures. If the hotel is unable to accommodate your request, your luggage can be securely stored at the hotel with our compliments.</p>
+                        <h4>GENERAL RESERVATION INFORMATION</h4>
+                        <p>Reservations must be guaranteed by a major credit card when you reserve. Blackout dates and conditions apply.</p>
+                        <p>Guests must be at least 21 years old to reserve a room. Guests under 21 years of age must be accompanied by an adult over 21 to stay in the hotel.</p>
+                        <p>For security purposes, please provide a valid government or state-issued photo ID at check-in. A hold of $200 per day must be placed on your credit card to cover incidentals.</p>
+                        <p>Baccarat Hotel New York is a smoke free environment. Please note that a minimum fee of $750 will be charged if smoke is detected in guest rooms.</p>
+                        <h4>COVID-19</h4>
+                        <p>Our priority is and always has been the health and well-being of our guests and team members. Learn about the steps we're taking to ensure your health and safety here. In compliance with local regulations and CDC guidelines, some amenities and services may be limited or unavailable during your stay. Please note that signing a COVID-19 Acknowledgement, Waiver and Release is required at check-in.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="d-flex modal-buttons justify-content-between align-items-center p-0" style="background-color: none;">
+                            <button class="closeBtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms and Conditions Modal -->
+    <div class="d-flex ">
+        <!-- Modal -->
+        <div class="modal fade" id="termsAndConditions" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="termsAndConditionsLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl modal-fullscreen-xl-down modal-fullscreen-lg-down modal-fullscreen-md-down">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="termsAndConditionsLabel">
+                            TERMS AND CONDITIONS
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h4>PART 1: RESERVATION TERMS AND CONDITIONS</h4>
+                        <h6>INTRODUCTION AND GENERAL PROVISIONS</h6>
+                        <p style="font-size: 12px;">Your reservation and the accommodation agreement made with a hotel within the FAR Hotels of the World™ brand (whether made by you directly with FAR or via a third party such as a travel agent) will be subject to these Reservation Terms and Conditions and the Reservation Privacy Policy set out below.</p>
+                        <p style="font-size: 12px;">When you make your reservation, whether online or by telephone, you will be deemed to have read, understood and accepted these Reservation Terms and Conditions and the Reservation Privacy Policy.</p>
+                        <p style="font-size: 12px;">If you make your reservation via a travel agent, or other third party, then you have a separate legal relationship with that party and FAR Hotels of the World Limited ("FAR"TM) has no liability for any acts or omissions of such party including their observance of your data protection rights.</p>
+                        <p style="font-size: 12px;">When you make your reservation, you will be also deemed to have read, understood and accepted the terms and conditions for using the FAR website (which shall mean www.slh.com or any related FAR web pages accessible from it) and any relevant terms and conditions shall be deemed to be incorporated into your reservation and the accommodation agreement with the FAR hotel. The link to the terms and conditions for using the SLH website is https://www.slh.com/about-us/terms-of-use/</p>
+                        <p style="font-size: 12px;">FAR provides an online reservations facility on the FAR website and a telephone facility for making reservations at FAR hotels (together called "the Reservations Facility") as an independent service provider and acts solely as an intermediary between you and the FAR hotels. Accordingly, your reservation and the accommodation agreement is made directly with the FAR hotel of your choice and your use of the Reservations Facility will not result in any contractual relationship between you and FAR.</p>
+                        <p style="font-size: 12px;">As there will be no contractual agreement between you and FAR, and as FAR does not control or verify the information that FAR hotels submit to or through the Reservations Facility, FAR shall not be liable to you for:</p>
+                        <p style="font-size: 12px;">(i) the accuracy or completeness of any FAR hotel information provided to or through the Reservations Facility including, without limitation, the availability or price of rooms, facilities, products or services, or for any other errors or omissions of SLH hotels; or</p>
+                        <p style="font-size: 12px;">(ii) any failure or delay beyond its control in the transmission of any data submitted to or through the Reservations Facility including, but not limited to, the details of your reservation or changes to or cancellation of your reservation, in each case to the fullest extent permitted under applicable laws.</p>
+                        <h4>RESERVATIONS PROCEDURE AND POLICIES</h4>
+                        <h6>1. Online reservations</h6>
+                        <p style="font-size: 12px;">The SLH website and telephone facility enables you to check the accommodation offerings and availability of FAR hotels (and related products and services), as indicated to SLH by each FAR hotel, and then submit an online or telephone reservation request via FAR to the FAR hotel of your choice. On completion of the reservation process, the Reservations Facility will transmit an online or email confirmation of your reservation. A reservation is only valid when a reservation number has been issued. Relevant details relating to products and services must be confirmed by you directly with the FAR hotel including, for example, airport pick up and drop off times.</p>
+                        <h6>2. Hotel Prices</h6>
+                        <p style="font-size: 12px;">The prices indicated on the SLH website and telephone facility for the FAR hotel rooms, products and services are subject to availability. Breakfast is only included if indicated in the rate policy. Taxes and service charges are only included if indicated in the rate policy.</p>
+                        <h6>3. Payment</h6>
+                        <p style="font-size: 12px;">It will be necessary for you to provide credit card details to secure a room, product or service reservation. The credit card may then be used by the SLH hotel for payment of a deposit as advised at the time of booking or as a guarantee for a future payment, in the case of a no-show, a cancellation or change to the reservation.</p>
+                        <h6>4. Cancellations and Amendments</h6>
+                        <p style="font-size: 12px;">You should make any cancellations or amendments to your reservation using the same SLH channel through which you booked, either online or by telephone. The cancellations and amendments policy that applies to your reservation will depend on the respective SLH hotel's policy as advised at the time of booking.</p>
+                        <h6>5. Rate/Reservation Validity</h6>
+                        <p style="font-size: 12px;">Reservation confirmations are provided to you solely for your convenience. FAR and FAR hotels retain official records of reservation transactions, including details of dates of stay and room, product and service rates. In the event of discrepancies, alterations, modifications, or variations between this confirmation and our official records, SLH’s official records shall prevail. Tampering with this confirmation to alter any room, product or service rate or any other reservation information is strictly prohibited and will have legal consequences.</p>
+                        <h6>6. Early Departure</h6>
+                        <p style="font-size: 12px;">Some SLH hotels and resorts have an early departure penalty fee and some room, product and service rates may also require a minimum stay. You may change your check out date without a penalty only if your rate and the SLH hotel’s policy permits.</p>
+                        <h6>7. Currency</h6>
+                        <p style="font-size: 12px;">Reservations will be charged in the hotel’s local currency as shown on the SLH website or given over the telephone at the time of booking. The price shown is based on today’s exchange rate. Any currency conversion is for guidance only. A foreign currency transaction may be charged by your card provider. Any deposits or pre-payments will be deducted from the final reservation invoice in the hotel’s local currency.</p>
+                        <p style="font-size: 12px;">A refund of a deposit or prepayment, if any, will be subject to the exchange rate applied by your payment card provider at the time of any such refund and may differ from the exchange rate applied at the time such deposit or prepayment was made.</p>
+                        <h6>8. Rate Requirements</h6>
+                        <p style="font-size: 12px;">As some rates have special requirements at check-in, you should verify that you qualify for the rate that you have reserved. SLH hotels are not obligated to honour this rate if you do not qualify or do not have proof of qualification.</p>
+                        <h6>9. Pre-paid Reservations</h6>
+                        <p style="font-size: 12px;">Some rate plans require prepayment in full and are non-cancellable, non-refundable, non-changeable and non-transferable. This will be identified in the rate description. For these rate plans, once you make a reservation your credit card will be charged for the full amount. Credit will not be given for any unused reservation and the amount paid by you for such reservation cannot be used toward any other/future reservation.</p>
+                        <h6>10. Guarantee Rules</h6>
+                        <p style="font-size: 12px;">For reservations guaranteed with a credit card at the time of making your reservation, rooms are held until the FAR hotel check-out time on the day following the day of arrival. The FAR hotel may authorise the room, product or service rate prior to arrival and reserve funds, including taxes, on the credit card to determine the validity of the credit card. Rooms, products or services booked with an invalid credit card are subject to immediate cancellation.</p>
+                        <h6>11. Overbooking</h6>
+                        <p style="font-size: 12px;">In the event that a guest cannot be accommodated due to the FAR hotel overbooking or an unforeseen circumstance, the FAR hotel will attempt to accommodate guests, at its expense, at a comparable property in the area for the night(s) for which the SLH hotel is unable to accommodate such guests, and will pay for transportation to that property.</p>
+                        <h6>12. Special Requests</h6>
+                        <p style="font-size: 12px;">FAR hotels will strive to honour any request for specific room types or bed types and some SLH hotels will confirm such arrangements at the time you make your reservation. Until specific confirmation is issued then your request cannot be guaranteed and neither SLH nor the SLH hotel can guarantee that your request will be honoured.</p>
+                        <h6>13. Pets</h6>
+                        <p style="font-size: 12px;">If you plan to travel with your pet, we recommend that you confirm directly with SLH or the SLH hotel that the SLH hotel does accept pets. SLH accepts no responsibility for the pet policy at any individual SLH hotel. Specific pet policies may require a damage/cleaning deposit at the time of check-in which may be non-refundable.</p>
+                        <h6>14. External services</h6>
+                        <p style="font-size: 12px;">The SLH website and telephone facility or the SLH hotel at which you stay may advertise the opportunity to purchase products or services from independent third party suppliers (“independent suppliers”) including, by way of illustration only and without limitation, excursions, yacht charters and ski passes (“external services”). The following provisions apply to all external services:</p>
+                        <p style="font-size: 12px;">(i) All information on the SLH website or otherwise communicated by SLH regarding external services has been provided to SLH and your SLH hotel by the independent suppliers. Such information does not constitute any endorsement or recommendation of the external service by SLH or your FAR hotel and is for general guidance only. Neither FAR or your FAR hotel makes any representation or warranty, express or implied, as to the nature, quality, cost or any other aspect of the external services and it is your responsibility to check all relevant details of the external services with the independent supplier prior to purchase or booking.</p>
+                        <p style="font-size: 12px;">(ii) FAR and FAR hotels act solely as intermediaries introducing independent suppliers. Your contract for any external services will be made direct with the relevant independent supplier and neither FAR or your SLH hotel has any other involvement in or control over the provision of external services. Consequently, neither FAR or your SLH hotel will have any liability to you for the warranties, representations, acts, errors, omissions, breaches or negligence of any independent supplier or for any accidents, personal injuries, death, loss of or damage to property or any other losses, damages, costs or expenses resulting, directly or indirectly, from your purchase or use of any external service, to the fullest extent permitted under applicable laws.</p>
+                        <p style="font-size: 12px;">It is your responsibility to check that, where appropriate, the independent supplier has adequate public liability insurance for the external service and/or to ensure that you and any dependents or associates using the external service have adequate personal insurance cover against all foreseeable risks.</p>
+                        
+                        <h6>15. Guest’s obligations</h6>
+                        <p style="font-size: 12px;">You agree to the terms and conditions of purchase imposed by SLH and each SLH hotel. You also agree that you are fully responsible and shall pay for all charges, fees, duties, taxes, assessments and other amounts arising out of your reservation when due, including additional taxes and fees that may not be included in the quoted rate.</p>
+                        <p style="font-size: 12px;">You understand that any violation of an FAR hotel’s conditions may result in cancellation of your reservation and you forfeiting any monies paid for such reservation and an SLH hotel debiting your account for any costs it incurs as a result of such violation.</p>
+
+                        <h6>You understand that any violation of an FAR hotel’s conditions may result in cancellation of your reservation and you forfeiting any monies paid for such reservation and an FAR hotel debiting your account for any costs it incurs as a result of such violation.</h6>
+                        <p style="font-size: 12px;">Our Reservation Privacy Policy (set out below) will apply to your reservation and forms part of these Reservation Terms and Conditions.</p>
+
+                        <h6>17. Intellectual Property Rights</h6>
+                        <p style="font-size: 12px;">‘FAR Luxury Hotels of the World’ and ‘FAR’ have trademark protection. Any copyright and other intellectual property in the content and materials on the SLH website remains with SLH or the relevant SLH hotel. Downloading, copying or otherwise using any material on the SLH website is permitted only for private use and limited to the sole purpose of making an SLH hotel reservation.</p>
+
+                        <h6>18. Force Majeure</h6>
+                        <p style="font-size: 12px;">Neither FAR nor any SLH hotel will be liable for any change or cancellation of any reservation that is caused, in whole or in part, by events, occurrences, or causes beyond the control of FAR or any FAR hotel. Such events, occurrences, or causes include, without limitation, acts of God, terrorist activities, weather, strikes, lockouts, riots, acts of war, earthquake, volcanic activity, ash clouds, tsunamis, fire and explosions.</p>
+
+                        <h6>19. Limitations</h6>
+                        <p style="font-size: 12px;">Neither FAR nor any FAR hotel nor other providers of products or services related to the Reservations Facility are responsible for communication malfunctions, failures, difficulties or lost, stolen, or misdirected transmissions, messages or entries, or the security of any such communications to the fullest extent permitted under applicable laws. Further, neither FAR nor any FAR hotel nor any other providers of products or services related to the Reservations Facility are responsible for incorrect or inaccurate entry information, whether caused by user(s), by any of the equipment or programming associated with the Reservations Facility, or by any technical or human error that may occur in the processing of any information related to the Reservations Facility and shall not be liable for damages resulting from any of the foregoing to the fullest extent permitted under applicable laws .</p>
+                        <p style="font-size: 12px;">SLH and any SLH hotel may cancel or modify reservations where it appears that a user has engaged in fraudulent or inappropriate activity or under other circumstances where it appears that the reservations contain or resulted from a mistake or error.</p>
+
+                        <h6>20. Governing Law</h6>
+                        <p style="font-size: 12px;">These Reservation Terms and Conditions are governed by the laws of England and the courts of England shall have exclusive jurisdiction in relation to any dispute in relation thereto.</p>
+
+                        <h6>21. Contact Details</h6>
+                        <p style="font-size: 12px;">Any queries arising from these Reservations Terms and Conditions should be sent by email to: contact@far.com.</p>
+
+                        
+
+                        <h4>PART 2: RESERVATION PRIVACY POLICY</h4>
+                        <p style="font-size: 12px;">This Reservation Privacy Policy provides you with information about the personal data FAR collects in connection with the reservation at your chosen SLH hotel, why we need to collect it, how it will be used, who it will be shared with and your rights in relation to it.</p>
+
+
+                        <h6>INTRODUCTION AND GENERAL PROVISIONS</h6>
+                        <p style="font-size: 12px;">The personal data SLH collects</p>
+                        <p style="font-size: 12px;">Your first and last name;</p>
+                        <p style="font-size: 12px;">Your email address;</p>
+                        <p style="font-size: 12px;">Your country of residence</p>
+                        <p style="font-size: 12px;">Details of your payment card including the card number, cardholder name, expiry date and CVV number.</p>
+                        <p style="font-size: 12px;">You may also, if you wish, provide SLH with:</p>
+                        <p style="font-size: 12px;">Your postal address (home or business);</p>
+                        <p style="font-size: 12px;">Preferred contact telephone number.</p>
+                        <p style="font-size: 12px;">The personal data you provide SLH in the course of the reservation process will be referred to in this Reservation Privacy Policy as the Reservation Data.</p>
+
+
+                        <h6>How FAR uses the Reservation Data</h6>
+                        <p style="font-size: 12px;">SLH will be the data controller of the Reservation Data.</p>
+                        <p style="font-size: 12px;">It is necessary for SLH to process the Reservation Data so that the contract for your hotel reservation can be fulfilled and to take all necessary steps that involves including transmitting the Reservation Data to the relevant SLH hotel which may be outside the European Economic Area. </p>
+                        <p style="font-size: 12px;">SLH has appointed a third party (outside the European Economic Area) to process the Reservation Data.</p>
+                        <p style="font-size: 12px;">In relation to any transfers of the Reservation Data outside the European Economic Area necessary to complete and fulfil the reservation, FAR has put in place all necessary legal, technical and organisational measures to ensure the protection of the Reservation Data, details of which can be obtained on request from FAR (compliance@slh.com).</p>
+                        <p style="font-size: 12px;">FAR will only share the Reservation Data with its appointed data processor and with the relevant SLH hotel.</p>
+                        <p style="font-size: 12px;">On receipt of the Reservation Data the relevant FAR hotel will also become a data controller of the Reservation Data and will use it for all purposes necessary to fulfil your reservation including contacting you prior to your stay.  Your FAR hotel will not use the Reservation Data for any purpose other than fulfilling your reservation and will need your specific consent to use it for any other purpose.</p>
+                        <p style="font-size: 12px;">FAR and the relevant FAR hotel will only store the Reservation Data for as long as is necessary to fulfil your reservation.  The Reservation Data will be destroyed, anonymised and/or deleted once your reservation has been fulfilled and all payment and administrative matters have been completed.</p>
+
+                        <h4>PART 3: THE SLH SALE TERMS AND CONDITIONS</h4>
+                        <p style="font-size: 12px;">Please note, the payment must be paid in full at the time of booking and is non-changeable and non-refundable. Offer cannot be combined with any other promotion and payment cannot be made using an FAR Gift Certificate. Savings are against the Best Available Rate. The discount only applies on participating hotels and on bookings made within the promotional period and cannot be applied on existing bookings. This offer is strictly subject to hotel availability during the promotional period and may be withdrawn by FAR at any time before the advertised book by time and date. Please refer to full reservation terms and conditions  at time of booking.</p>
+
+                    </div>
+                    <div class="modal-footer">
+                        <div class="d-flex modal-buttons justify-content-between align-items-center p-0" style="background-color: none;">
+                            <button class="closeBtn" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- Summary -->
+    <div class="cart-row">
+        <div class="user-info">
+            <div class="container">
+                <form id="dataForm" action="success.html" method="POST">
+
+                    <!-- FORM DETAILS -->
+                    <div class="row">
+                        <h3 class="title">Your Details:</h3>
+                        <div class="col">
+                            <div class="inputBox">
+                                <span for="fName" >First Name :</span>
+                                <input id="fName" type="text" placeholder="Juan">
+                            </div>
+                            <div class="inputBox">
+                                <span for="lName">Last Name:</span>
+                                <input id="lName" type="text" placeholder="Dela Cruz">
+                            </div>
+                            <div class="inputBox">
+                                <span for="emailInput">Email Address:</span>
+                                <input id="emailInput" type="email" spellcheck="false" placeholder="example@example.com">
+                            </div>
+                            <div class="inputBox">
+                                <span for="contactNumber">Contact Number :</span>
+                                <input id="contactNumber" type="number" placeholder="">
+                            </div>
+                            <div class="inputBox">
+                                <span for="address">Address :</span>
+                                <input id="address" type="text" placeholder="Complete Address">
+                            </div>
+                           
+                            <div class="payment-data">
+                                <h2 class="title">PAYMENT METHOD</h2>
+                                <div class="inputBox">
+                                    <span>Cards Accepted :</span>
+                                    <img src="assets/images/creditCards.png" alt="">
+                                </div>
+                                <div class="inputBox">
+                                    <span>Name on Card :</span>
+                                    <input id="fullName" type="text" placeholder="Juan Dela Cruz">
+                                </div>
+                                <div class="flex">
+                                    <div class="inputBox">
+                                        <span>Expiry Date :</span>
+                                        <input type="date" placeholder="2023">
+                                    </div>
+                                    <div class="inputBox">
+                                        <span>CVV :</span>
+                                        <input id="cvv" type="text" placeholder="123">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="errDisplay"></p>
+                        <div class="booking-button">
+                            <a href="success.html"><button type="submit" id="bookingBtn">BOOK</button></a>
+                        </div>
+                    </div>    
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- end of Checkout form -->
+
+    <!-- FOOTER SECTION-->
+    <div class="container-fluid footer-container pt-5 pb-1">
+        <div class="row footer-row">
+        <div class="footer-con col-9 col-sm-6 col-md-5 col-lg-2">
+            <div class="footer-title">
+            <h4>Company</h4>
+            </div>
+            <div class="footer-text">
+            <h5>FAR Hotel</h5>
+            
+            <a class="link">
+                <h5>Address: 528 Epifanio de los Santos Ave, Cubao, Quezon City, 1109 Metro Manila</h5>
+            </a>
+            
+            <h5><img src="assets/css/images/logos/Logo-2.png" alt=""></h5>
+            </div> 
+        </div>
+
+        <div class="footer-con col-9 col-sm-6 col-md-5 col-lg-2">
+            <div class="footer-title">
+            <h4>Quick Links</h4>
+            </div>
+            <div class="footer-text">
+            <a href="index.html"><h5>Home</h5></a>
+            <a href="index.html#roomLink"><h5>Rooms</h5></a>
+            <a href="index.html#promoLink"><h5>Promos</h5></a>
+            <a href="index.html#aaLink"><h5>Amenities</h5></a>
+            <a href="index.html#aaLink"><h5>Activities</h5></a>
+            <a href="second-page.html"><h5>Book Now</h5></a>
+            </div> 
+        </div>
+
+        <div class="footer-con col-9 col-sm-6 col-md-5 col-lg-2">
+            <div class="footer-title">
+            <h4>Rooms</h4>
+            </div>
+            <div class="footer-text">
+            <a href="index.html#roomLink"><h5>Presidential Suite</h5></a>
+            <a href="index.html#roomLink"><h5>Executive Suite</h5></a>
+            <a href="index.html#roomLink"><h5>Deluxe Suite</h5></a>
+            </div> 
+            <br>
+            <div class="footer-title">
+            <h4>Offers</h4>
+            </div>
+            <div class="footer-text">
+            <a href="index.html#promoLink"><h5>3 Nights stay, free 1 Night</h5></a>
+            <a href="index.html#promoLink"><h5>Book Online For Less 10%</h5></a>
+            <a href="index.html#promoLink"><h5>Free Buffet on Your Birthday</h5></a>
+            </div>
+        </div>
+
+        <div class="footer-con col-9 col-sm-6 col-md-5 col-lg-2">
+            <div class="footer-title">
+            <h4>Contact us</h4>
+            </div>
+            <div class="footer-text">
+            <h5>Cellphone: (+63) 912-3456-7890</h5>
+            <h5>Telephone: (02) 123-4567</h5>
+            <h5>Email: farhotelgroups@gmail.com</h5>   
+            </div> 
+            <br>
+            <div class="footer-title">
+            <h4>Follow Us</h4>
+            </div>
+            <div class="footer-text">
+            <h4>
+                <a class="link">
+                <span><i class="fa-brands fa-square-facebook"></i></span>
+                </a>
+                <a class="link">
+                <span><i class="fa-brands fa-square-instagram"></i></span>
+                </a>
+                <a class="link">
+                <span><i class="fa-brands fa-square-twitter"></i></span>
+                </a>
+            </h4>
+            </div> 
+        </div>
+
+        </div>
+        <hr>
+
+        <div class="footer-text2 text-center">
+        <h5>Copyright © 2023 All rights reserved | This website is made by <a href="">FAR Group</a></h5>
+        </div>
+
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
